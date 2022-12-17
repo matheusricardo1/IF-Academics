@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245, 244, 244);
+}
+#img-if{
+    padding-top: 20px;
+}
+main{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(245, 244, 244);
+    padding-bottom: 200px;
+}
+main h1, main p{
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao{
+    font-family: 'Exo';
+    background-color: #263238;
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 150px;
+    width: 245px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 12px;
+    color: white;
+    
+}
+.botao>a{
+    text-decoration: none;
+    color: white;
+}
+.botao:hover{
+    text-decoration: underline;
+}
+p>.login{
+    color: blue;
+}
+#ja_tem{
+    margin-top: 20px;
+}
