@@ -107,3 +107,41 @@ main > img#config{
     line-height: 30px;
     
 }
+.teacher-img{
+    background-color: #F4F5F9;
+    display: inline-block;
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    border: 0px solid black;
+    border-radius: 12px;
+    padding: 10px 8px 50px 8px;
+    margin-left: 10px;
+    box-shadow: 0px 14px 32px -2px rgba(0, 0, 0, 0.1);
+}
+.teacher-img2>img{
+    height: 75px;
+    width: 75px;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+img#img-1{
+    background-color: #CF687D; 
+}
+img#img-2{
+    background-color: #6D6363;   
+}
+img#img-3{
+    background-color: #E5E5E5;
+}
+.teacher-img>h1{
+    font-size: 0.61em;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 1.2em;
+}
+.teacher-img>h2{
+    font-size: 0.5em;
+    text-align: left;
+    line-height: 1.2em;
+}
