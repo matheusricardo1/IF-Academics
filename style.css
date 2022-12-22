@@ -16,7 +16,7 @@ body{
     background-color: #F4F5F9;
 }
 main{
-    height: 246px;
+    
     width: 411px;
     
     margin: auto;
@@ -116,6 +116,7 @@ main > img#funil{
     font-weight: 600;
     font-size: 1em;
     line-height: 30px;
+
     
 }
 .teacher-img{
