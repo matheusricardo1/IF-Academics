@@ -82,13 +82,19 @@ main > img#search{
     padding: 9px ;
     border-radius: 12px;
     background-color: #7e8bff;
-    width:25px;
-    height: 25px;
+    width:23px;
+    height: 23px;
 }
+img#search:hover{
+
+    background-color: #3c4ac5;
+
+}
+
 main > img#config{
     position: relative;
-    left: 266px;
-    bottom:9px;
+    left: 269px;
+    bottom:8px;
     padding: 9.1px ;
     border-radius: 12px;
     
@@ -97,7 +103,7 @@ main > img#config{
 }
 main > img#funil{
     position: relative;
-    left: 213px;
+    left: 221px;
     top:76px;
     padding: 9.1px ;
     border-radius: 12px;
