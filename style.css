@@ -46,7 +46,10 @@ main section.profile{
 .letra_tsp{
     color: #636D77;
 }
-h1 > img{
+.profile > h1{
+
+}
+#profile-img{
     
     position: relative;
     margin: auto;
