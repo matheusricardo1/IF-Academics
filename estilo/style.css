@@ -56,9 +56,22 @@ main{
 .botao:hover{
     text-decoration: underline;
 }
-p>.login{
-    color: blue;
-}
+
 #ja_tem{
+    color:#636D77;
     margin-top: 20px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #636D77;
+}
+p>.login{
+    color:#1381EF ;
 }
