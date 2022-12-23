@@ -29,6 +29,7 @@ main{
 #logout{
     position: relative;
     left: 306px;
+    top: 5px;
     font-size: large;
     text-decoration: none;
     color: rgba(255, 0, 0, 0.637);
@@ -47,7 +48,7 @@ main section.profile{
     font-size: 1.5em;
 
 }
-.letra_tsp{
+#profile_name{
     color: #636D77;
     width: 200px;
     overflow: hidden;
@@ -183,4 +184,25 @@ img#img-3{
     text-align: left;
     line-height: 1.2em;
     width: 97px;
+}
+#msg-b{
+    position: relative;
+    border: 0px solid black;
+    bottom: 70px;
+    margin: auto;
+    width: 300px;
+    padding: 0px 5px 10px 5px;
+    background-color: rgba(128, 128, 128, 0.384);
+    text-align: justify;
+}
+
+form{
+    position: relative;
+    margin: auto;
+    border: 0px solid black;
+    bottom: 70px;
+    width: 300px;
+    padding: 10px 5px 0px 5px;
+    background-color: rgba(128, 128, 128, 0.384);
+    text-align: justify;;
 }

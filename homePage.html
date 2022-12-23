@@ -15,20 +15,17 @@
             <a id="logout" href="loginPage.html">Logout</a>
         </nav>
         <section class="profile">
-            <h1>Boa Tarde!</h1>
-            
+
+            <h1 id="horario">Boa Tarde!</h1>  
+
             <div id="foto"></div>
-            <script>
-                var nome = window.prompt("Qual é seu nome?");
-                document.write(`<p class="letra_tsp">${nome}</p>`)
-            </script>
-            
-            
+
+            <p id="profile_name">Camila Santana</p>
+
+
             <div class="searchBar">
                 <p>Procure seu professor</p>
-                
             </div>
-            
         </section>
         
         <img id="search"src="imagens/iconeDeBusca3.png" alt="search">
@@ -67,6 +64,44 @@
             
         </section>
         <img id="profile-img" src="imagens/Rectangle 32.png" alt="foto_de_perfil">
+
+        <form>
+            <input type="text" name="msg" id="msg" value="Oi!">
+            <input id="msg_bt" type="button" value="Enviar" onclick="texto()">
+        </form>
+
+        <p id="msg-b">Sua mensagem</p>
+
+        <script >
+            //var d = window.document.querySelector('div#profile_name');
+            /*
+            var nome = window.document.getElementById('profile_name');
+            window.alert(nome.innerText)
+            nome.innerText = window.prompt("Qual é seu nome?");
+            if(nome.innerText == false){nome.innerText = 'Camila Santana';}*/
+            var agora = new Date()
+            var hora = agora.getHours
+
+            var horario = document.getElementById('horario')
+            if(hora >= 6 && hora < 12){
+                horario.innerText =  'Bom Dia!'
+            }
+            else if(hora >= 12 && hora < 18){
+                horario.innerText = 'Boa Tarde!'
+            }
+            else if((hora >= 18 && hora < 24 ) || (hora >= 0 && hora < 6)){
+                horario.innerText = 'Boa Noite!'
+            }
+
+            function texto(){
+                var texto = window.document.getElementById('msg').value;
+                var p = window.document.getElementById('msg-b');
+                //alert(texto)
+                p.innerHTML = texto
+            }
+            //var texto2 = window.document.forms.getElementById
+
+        </script>
     </main>
 </body>
 </html>
