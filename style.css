@@ -49,6 +49,8 @@ main section.profile{
 }
 .letra_tsp{
     color: #636D77;
+    width: 200px;
+    overflow: hidden;
 }
 .profile > h1{
     padding-top: 10px;
