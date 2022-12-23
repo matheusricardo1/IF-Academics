@@ -175,9 +175,7 @@ img#img-3{
     font-weight: bolder;
     text-align: left;
     line-height: 1.2em;
-    
     width: 98px;
-    
 }
 .teacher-img>h2{
     font-size: 0.5em;
@@ -194,6 +192,8 @@ img#img-3{
     padding: 0px 5px 10px 5px;
     background-color: rgba(128, 128, 128, 0.384);
     text-align: justify;
+    border-radius: 0px 0px 6px  6px;
+    
 }
 
 form{
@@ -203,7 +203,20 @@ form{
     bottom: 70px;
     width: 300px;
     padding: 10px 5px 0px 5px;
-    border-radius: 12px;
+    border-radius: 6px  6px 0px 0px;
     background-color: rgba(128, 128, 128, 0.384);
-    text-align: justify;;
+    text-align: justify;
+        
+}
+input#msg{
+    border-radius: 7px;
+    padding: 3px 5px;
+    border: 0px solid black;
+    
+}
+input#msg_bt{
+    border-radius: 7px;
+    padding: 3px 5px;
+    border: 0px solid black;
+    
 }
