@@ -61,7 +61,7 @@ main{
     border: 0px solid transparent;
     box-shadow: 0px 14px 32px -2px rgba(0, 0, 0, 0.1);
 
-    font-family: 'Roboto';
+    font-family: 'Exo 2';
     font-style: normal;
     font-weight: 540;
     font-size: 16px;
@@ -85,7 +85,7 @@ main{
     border: 0px solid transparent;
     box-shadow: 0px 14px 32px -2px rgba(0, 0, 0, 0.1);
 
-    font-family: 'Roboto';
+    font-family: 'Exo 2';
     font-style: normal;
     font-weight: 540;
     font-size: 16px;
@@ -101,6 +101,9 @@ main{
     margin: auto;
     width: 343px;
     height: 53px;
+}
+#senha:focus,#email:focus{
+    outline: none;
 }
 #olho{
     display: block;

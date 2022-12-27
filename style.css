@@ -89,6 +89,9 @@ main section.profile{
     font-size: 16px;
     color: #636D77;
 }
+#searchBar:focus{
+    outline: none;
+}
 main > img#search{
     position: relative;
     left: 241px;
@@ -152,28 +155,19 @@ img#funil{
 
 .teacher-img{
     
-    background-color: #F4F5F9;
+    background-color: #FFFFFF;
     display: table-cell;
-    
+    border: 6px solid #F4F5F9;
     text-align: center;
-    height: 75px;
-    width: 75px;
-    border: 0px solid black;
-    border-radius: 12px;
-    padding: 10px 8px 50px 8px;
-
-
-    box-shadow: 0px 14px 32px -2px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    width: 98px;
+    height: 176px;
+    border-radius: 18px;
 }
-.teacher-img:hover{
-    height: 85px;
-    width: 76px;
-    transition: 0.2s;
- 
-}
+
 .teacher-img2>img{
-    height: 75px;
-    width: 75px;
+    width: 120px;
+    height: 115px;
     border: 0px solid black;
     border-radius: 10px;
 }
@@ -187,16 +181,20 @@ img#img-3{
     background-color: #E5E5E5;
 }
 .teacher-img>h1{
-    font-size: 0.61em;
-    font-weight: bolder;
+    font-size: 16px;
+    font-weight: 600;
     text-align: left;
-    line-height: 1.2em;
-    width: 98px;
+    margin-left: 8px;
+    line-height: 21px;
+    
+    width: 140px;
+    height: 21px;
 }
 .teacher-img>h2{
-    font-size: 0.5em;
+    font-size: 0.7em;
     text-align: left;
     line-height: 1.2em;
+    margin-left: 8px;
     width: 97px;
 }
 #msg-b{

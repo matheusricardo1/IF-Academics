@@ -9,29 +9,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <main>
         <nav>
             <a id="logout" href="loginPage.html">Logout</a>
-        </nav>
-        <section class="profile">
+        </nav> 
+            <section class="profile">
 
-            <img id="profile-img" src="imagens/Rectangle 32.png" alt="foto_de_perfil">
+                <img id="profile-img" src="imagens/Rectangle 32.png" alt="foto_de_perfil">
 
-            <h1 id="horario">Boa Tarde!</h1>  
-            <p id="profile_name">Camila Santana</p>
+                <h1 id="horario">Boa Tarde!</h1>  
+                <p id="profile_name">Matheus Ricardo</p>
 
 
-            <input type="text" name="searchBar" id="searchBar" placeholder="Procure seu professor">
-            
-        </section>
+                <input type="text" name="searchBar" id="searchBar" placeholder="Procure seu professor">
+
+                
+            </section>
+         
         
         <img id="search"src="imagens/iconeDeBusca3.png" alt="search">
         <img id="config" src="imagens/IconeDeAjustes.png" alt="configurações">
         <img id="funil" src="imagens/funil.png" alt="configurações2f">
 
         
-            <h2 id="profPopular">Professores Populares</h2> 
+        <h2 id="profPopular">Professores Populares</h2> 
         
 
         <section class="teachers">
@@ -72,41 +74,30 @@
         <section class="popular">
             
         </section>
-        
 
-        <script >
-
-            var agora = new Date()
-            var hora = agora.getHours
-
-            var horario = document.getElementById('horario')
-            if(hora >= 6){
-                horario.innerText =  'Bom Dia!'
-            }
-            else if(hora >= 12 ){
-                horario.innerText = 'Boa Tarde!'
-            }
-            else if (hora >=18){
-                horario.innerText = 'Boa Noite!'
-            }
-
-            var botao = document.getElementById("msg_bt") 
-
-            function texto(){
-                var texto = window.document.getElementById('msg').value;
-                var p = window.document.getElementById('msg-b');
-                //alert(texto)
-                p.innerHTML = texto
-
-                if(p.innerHTML == 'm'){
-                    
-                    botao.value = 'volt' 
-                    
-                }
-            }
-            //var texto2 = window.document.forms.getElementById
-
-        </script>
     </main>
+    <script>
+        
+        var agora = new Date();
+        var hora = agora.getHours()
+        var horario = window.document.getElementById('horario')
+        
+        if(hora > 17){
+            horario.innerText = 'Boa Noite!'
+        }
+        else if(hora > 11){
+            horario.innerText = 'Boa Tarde!'
+        }
+        else if (hora > 5){
+            horario.innerText = 'Bom Dia!'
+        }
+        else if (hora >=0){
+            horario.innerText = 'Boa Noite!'
+        }
+    
+        var botao = document.getElementById("msg_bt") 
+
+
+    </script>
 </body>
 </html>
