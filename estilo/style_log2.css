@@ -105,9 +105,9 @@ main{
 #olho{
     display: block;
     position: relative;
-    left: 355px;
-    width: 18px;
-    height: 12px; 
+    left: 350px;
+    width: 23px;
+    height: 15px; 
 }
 
 .next{
