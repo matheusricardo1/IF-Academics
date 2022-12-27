@@ -16,11 +16,11 @@
         </nav>
         <section class="profile">
 
+            <img id="profile-img" src="imagens/Rectangle 32.png" alt="foto_de_perfil">
+
             <h1 id="horario">Boa Tarde!</h1>  
-
-            <div id="foto"></div>
-
             <p id="profile_name">Camila Santana</p>
+
 
             <input type="text" name="searchBar" id="searchBar" placeholder="Procure seu professor">
             
@@ -29,9 +29,13 @@
         <img id="search"src="imagens/iconeDeBusca3.png" alt="search">
         <img id="config" src="imagens/IconeDeAjustes.png" alt="configurações">
         <img id="funil" src="imagens/funil.png" alt="configurações2f">
+
         
+            <h2 id="profPopular">Professores Populares</h2> 
+        
+
         <section class="teachers">
-            <h2>Professores Populares</h2> 
+            
             <div class="teacher-img">
                 <div class="teacher-img2">
                     <img img id="img-1" src="imagens/Rectangle 18.png" alt="img-1">
@@ -55,34 +59,34 @@
                 <h1>Eduardo Corrêa</h1>
                 <h2>Prof. De Física</h2>
             </div>
+            <div class="teacher-img">
+                <div class="teacher-img2">
+                    <img id="img-3" src="imagens/Rectangle 20.png" alt="img-3">
+                </div>
+                <h1>Véio</h1>
+                <h2>Prof. De Física</h2>
+            </div>
             
         </section>
         
         <section class="popular">
             
         </section>
-        <img id="profile-img" src="imagens/Rectangle 32.png" alt="foto_de_perfil">
-
-
+        
 
         <script >
-            //var d = window.document.querySelector('div#profile_name');
-            /*
-            var nome = window.document.getElementById('profile_name');
-            window.alert(nome.innerText)
-            nome.innerText = window.prompt("Qual é seu nome?");
-            if(nome.innerText == false){nome.innerText = 'Camila Santana';}*/
+
             var agora = new Date()
             var hora = agora.getHours
 
             var horario = document.getElementById('horario')
-            if(hora >= 6 && hora < 12){
+            if(hora >= 6){
                 horario.innerText =  'Bom Dia!'
             }
-            else if(hora >= 12 && hora < 18){
+            else if(hora >= 12 ){
                 horario.innerText = 'Boa Tarde!'
             }
-            else{
+            else if (hora >=18){
                 horario.innerText = 'Boa Noite!'
             }
 
