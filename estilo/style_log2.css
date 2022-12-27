@@ -102,6 +102,13 @@ main{
     width: 343px;
     height: 53px;
 }
+#olho{
+    display: block;
+    position: relative;
+    left: 355px;
+    width: 18px;
+    height: 12px; 
+}
 
 .next{
     display: block;

@@ -25,7 +25,9 @@
         <p id="login_p">Login:</p>
         
         <input type="text" name="email" id="email" placeholder="Email">   
-        <input type="text" name="senha" id="senha" placeholder="Senha">
+        <input type="password" name="senha" id="senha" placeholder="Senha" >
+        <img src="imagens/olho.png" alt="olho" id="olho" onclick="senha()">
+        
     
 
         <a class="next" href="#" onclick="clicar()">Avançar</a>
@@ -50,6 +52,12 @@
                 }
             }
         }
+        function senha(){
+            var senha = document.getElementById('senha')
+            if(senha.type == 'password')senha.type = 'text'
+            else if(senha.type == 'text')senha.type = 'password'
+        }
+
    
     </script>
 </body>
