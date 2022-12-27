@@ -37,15 +37,16 @@
         function clicar(){
             var email = window.document.getElementById('email').value;
             var senha = window.document.getElementById('senha').value;
+            var url = window.location.href
 
             if(email == 'admin' && senha == 'admin') {
                 window.alert('olá desenvolvedor');
                 
-                if(window.URL == 'https://1mxthxs.github.io/IF-Academics/loginPage_2.html'){
-                    window.location.href = 'https://1mxthxs.github.io/IF-Academics/homePage.html'
+                if(url == 'http://127.0.0.1:5500/loginPage_2.html#' || url == 'http://127.0.0.1:5500/loginPage_2.html'){
+                    window.location.href = '/homePage.html'
                 }
                 else{
-                    window.location.href = '/homePage.html'
+                    window.location.href = '/IF-Academics/homePage.html'
                 }
             }
         }
