@@ -23,13 +23,27 @@
         </div>
 
         <p id="login_p">Login:</p>
-        <form id="f_email">
-            <input type="text" name="email" id="email" placeholder="Email">   
-        </form>
-        <form id="f_senha">
-            <input type="text" name="senha" id="senha" placeholder="Senha">
-        </form>
-        <p class="next"><a href="#">Avançar</a></p>
+        
+        <input type="text" name="email" id="email" placeholder="Email">   
+        <input type="text" name="senha" id="senha" placeholder="Senha">
+    
+
+        <a class="next" href="#" onclick="clicar()">Avançar</a>
+        
     </main>
+    <script>
+       // window.alert("Olá")
+        
+        function clicar(){
+            var email = window.document.getElementById('email').value;
+            var senha = window.document.getElementById('senha').value;
+
+            if(email == 'admin' && senha == 'admin') {
+                window.alert('olá desenvolvedor');
+                window.location.href = '/homePage.html'
+            }
+        }
+   
+    </script>
 </body>
 </html>
