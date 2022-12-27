@@ -93,11 +93,19 @@
                 horario.innerText = 'Boa Noite!'
             }
 
+            var botao = document.getElementById("msg_bt") 
+
             function texto(){
                 var texto = window.document.getElementById('msg').value;
                 var p = window.document.getElementById('msg-b');
                 //alert(texto)
                 p.innerHTML = texto
+
+                if(p.innerHTML == 'm'){
+                    
+                    botao.value = 'volt' 
+                    
+                }
             }
             //var texto2 = window.document.forms.getElementById
 
