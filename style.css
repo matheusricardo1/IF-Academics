@@ -154,19 +154,20 @@ img#funil{
 }
 
 .teacher-img{
-    
+    justify-content: center;
     background-color: #FFFFFF;
     display: table-cell;
     border: 6px solid #F4F5F9;
     text-align: center;
     padding-top: 10px;
-    width: 98px;
+    width: 100px;
     height: 176px;
     border-radius: 18px;
 }
 
 .teacher-img2>img{
-    width: 120px;
+    justify-content: center;
+    width: 115px;
     height: 115px;
     border: 0px solid black;
     border-radius: 10px;

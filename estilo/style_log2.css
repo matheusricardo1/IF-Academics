@@ -14,17 +14,26 @@ body{
 #back_img{
     position: relative;
     right:1px;
-    bottom:1px
+    bottom:1px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+#back{
+    box-sizing: border-box;
+    border-radius: 50%;
+    
 }
 #b_img{
-    
     border: 1px solid transparent;
     border-radius: 50%;
     width: 41px;
     height: 41px;
-    position: relative;
-    right: 159px;
-    top: 10px;
+    cursor: pointer;
+
+    position: absolute;
+    display: inline;
+    left: 27px;
+    margin-top: 10px;
 }
 
 #img-if{
@@ -39,7 +48,7 @@ main{
     background-color: rgb(245, 244, 244);
     padding-bottom: 200px;
     width: 411px; 
-    
+
     border: 0px solid black;
 }
 
@@ -109,6 +118,7 @@ main{
     display: block;
     position: relative;
     left: 350px;
+    bottom: 3px;
     width: 23px;
     height: 15px; 
 }
@@ -119,7 +129,7 @@ main{
     font-size: 1.5em;
     font-weight: 600px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 65px;
     width: 245px;
     padding-top: 13px;
     padding-bottom: 13px;
